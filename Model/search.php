@@ -40,7 +40,9 @@ if($conectionTest)
             var_dump($track);
 
         }
+
     }
+    header('Location: index.php?page=landing');
 }
 else
 {

@@ -30,6 +30,146 @@
         </div>
     </div>
 </div>
+<div class="">
+    <table>
+        <th>
+           Album Id
+        </th>
+        <th>
+            Artist
+        </th>
+        <th>
+            Album Title
+        </th>
+        <th>
+            Album Version
+        </th>
+        <th>
+            UPC
+        </th>
+        <th>
+            Catalog
+        </th>
+        <th>
+            Release Date
+        </th>
+        <th>
+            Marketing Label
+        </th>
+        <th>
+           Disk #
+        </th>
+        <th>
+            Track #
+        </th>
+        <th>
+            ISRC
+        </th>
+        <th>
+            Track Title
+        </th>
+        <th>
+            Still Fighting
+        </th>
+        <th>
+            Track Artist
+        </th>
+        <th>
+            Track Timing
+        </th>
+        <th>
+            Explicit(Y/N)
+        </th>
+        <th>
+            Genre
+        </th>
+        <th>
+            Recording Date
+        </th>
+        <th>
+            Recording Location
+        </th>
+        <th>
+            First Date of Release
+        </th>
+        <th>
+            First Country of Release
+        </th>
+        <?php
+            foreach ($traks as $trak)
+            {
+                ?>
+                <tr>
+                    <td>
+                        <?php echo $trak->getAlbumDeezerId(); ?>
+                    </td>
+                    <td>
+                        <?php echo $trak->getArtist(); ?>
+                    </td>
+                    <td>
+                        <?php echo $trak->getAlbumTitle(); ?>
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+                        <?php echo $trak->getUpc(); ?>
+                    </td>
+                    <td>
+                        <?php echo $trak->getUpc(); ?>
+                    </td>
+                    <td>
+                        <?php echo $trak->getReleaseDate(); ?>
+                    </td>
+                    <td>
+                        <?php echo $trak->getMarketingLabel(); ?>
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+                        <?php echo $trak->getTrackDeezerId(); ?>
+                    </td>
+                    <td>
+                        <?php echo $trak->getIsrc(); ?>
+                    </td>
+                    <td>
+                        <?php echo $trak->getTrackTitle(); ?>
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+                        <?php echo $trak->getTrackArtist(); ?>
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+                        <?php echo $trak->getGender(); ?>
+                    </td>
+                    <td>
+                        <?php echo $trak->getRecordingDate(); ?>
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+                        <?php echo $trak->getFirstDateOfRelease(); ?>
+                    </td>
+                    <td>
+                        <?php echo $trak->getFirstCountryOfRelease(); ?>
+                    </td>
+                </tr>
+
+                <?php
+            }
+
+        ?>
+    </table>
 </div>
 
 </body>
