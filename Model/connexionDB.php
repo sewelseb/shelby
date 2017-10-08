@@ -1,2 +1,2 @@
 <?php
-    $bdd = new PDO('mysql:host=localhost;dbname=shelby', 'root', 'root');
+    $bdd = new PDO('mysql:host=localhost;dbname=shelby', 'seb', 'seb');
