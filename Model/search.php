@@ -2,21 +2,23 @@
 require_once ('Objects/UserRepository.php');
 require_once ('Objects/DeezerAPI.php');
 require_once ('Objects/Track.php');
+require_once ('Objects/TrackRepository.php');
 
 $userRepo = new UserRepository();
 //var_dump($_SESSION);
 $conectionTest = $userRepo->testConnectUser($bdd, $_SESSION['username'], $_SESSION['password']);
 //var_dump($conectionTest);
+$trackRepo = new TrackRepository();
 if($conectionTest)
 {
     $deezerApi = new DeezerAPI();
-    $album = $deezerApi->searchAlbum($POST['search']);
-    $trackAPi = $deezerApi->searchTrack($deezerTrack->tracklist);
+    $album = $deezerApi->searchAlbum($_POST['search']);
+    $trackAPi = $deezerApi->searchTrack($album->tracklist);
     //var_dump($album->tracks);
     foreach ($trackAPi->data as $deezerTrack)
     {
         $track = new Track();
-        $track->setAlbumDeezerId($POST['search']);
+        $track->setAlbumDeezerId($_POST['search']);
         $track->setTrackDeezerId($deezerTrack->id);
         $track->setArtist($deezerTrack->artist->name);
         $track->setAlbumTitle($album->title);
@@ -27,12 +29,14 @@ if($conectionTest)
         $track->setIsrc($deezerTrack->isrc);
         $track->setTrackTitle($deezerTrack->title);
         $track->setTrackArtist($deezerTrack->artist->name);
-        $track->setGender($album->data[0]->name);
+        $track->setGender($album->genres->data[0]->name);
         $track->setRecordingDate($album->release_date);
         $track->setFirstDateOfRelease($album->release_date);
 
+        $trackRepo->save($track, $bdd);
 
         var_dump($track);
+
     }
 
 }
