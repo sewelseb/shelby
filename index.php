@@ -1,7 +1,7 @@
 <?php
 //FrontControler
 
-//session_start();
+session_start();
 //session_cache_limiter('private_no_expire, must-revalidate');
 //setlocale (LC_TIME, 'fr_FR');
 //date_default_timezone_set('Europe/Berlin');
@@ -36,6 +36,7 @@ $conn = array(
 );
 
 $entityManager = EntityManager::create($conn, $config);
+require_once ('Model/connexionDB.php');
 
 if (!empty($_GET['page']) && is_file('Controller/'.$_GET['page'].'.php'))
 {

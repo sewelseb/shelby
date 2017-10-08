@@ -19,9 +19,9 @@
             </div>
             <div class="modal-body margin10px">
 
-                <form method="POST" action="index.php?page=login">
-                    <input type="text" name="user" placeholder="Username">
-                    <input type="password" name="pass" placeholder="Password">
+                <form  action="index.php?page=login" method="post">
+                    <input type="text" name="user" placeholder="username">
+                    <input type="password" name="pass" placeholder="password">
                     <input type="submit" name="login" class="login loginmodal-submit" value="Login">
                 </form>
 
