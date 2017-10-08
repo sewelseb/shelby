@@ -34,4 +34,24 @@ class TrackRepository
         echo "\nPDO::errorInfo():\n";
         var_dump($pdo->errorInfo());
     }
+
+    public function albumAlreadyExist(PDO $PDO, $albumId)
+    {
+        $res = $PDO->query('SELECT * FROM track WHERE album_deezer_id ='.$albumId.'');
+        if (sizeof($res)>0)
+        {
+            try{
+                foreach  ($res as $user) {
+
+                    return true;
+
+                }
+            }catch (Exception $e)
+            {
+
+            }
+
+        }
+        return false;
+    }
 }
