@@ -14,14 +14,14 @@ class DeezerAPI
 
     public function searchAlbum($albumId)
     {
-        $curl = curl_init();
+        //$curl = curl_init();
 
         return json_decode(file_get_contents($this->albumURL.$albumId));
     }
 
     public function searchTrack($trackUrl)
     {
-        $curl = curl_init();
+        //$curl = curl_init();
 
         return json_decode(file_get_contents($trackUrl));
     }
