@@ -19,7 +19,7 @@
             </div>
             <div class="modal-body margin10px">
 
-                <form method="POST" action="index.php?login">
+                <form method="POST" action="index.php?page=login">
                     <input type="text" name="user" placeholder="Username">
                     <input type="password" name="pass" placeholder="Password">
                     <input type="submit" name="login" class="login loginmodal-submit" value="Login">
