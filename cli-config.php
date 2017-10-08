@@ -5,6 +5,6 @@ use Doctrine\ORM\Tools\Console\ConsoleRunner;
 require_once 'bootstrap.php';
 
 // replace with mechanism to retrieve EntityManager in your app
-$entityManager = GetEntityManager();
+$entityManager = \Doctrine\ORM\EntityManager::create($conn, $config);
 
 return ConsoleRunner::createHelperSet($entityManager);
