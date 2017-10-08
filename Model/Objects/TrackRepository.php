@@ -54,4 +54,28 @@ class TrackRepository
         }
         return false;
     }
+
+    public function getAll(PDO $PDO)
+    {
+        $res = $PDO->query('SELECT * FROM track WHERE album_deezer_id ='.$albumId.'');
+        $tracks = array();
+        if (sizeof($res)>0)
+        {
+            try{
+                foreach  ($res as $trackDB) {
+                    $track = new Track();
+                    //TODO: set the trak objects with db values
+                    
+
+                    $tracks[]=$track;
+                }
+                return $tracks;
+            }catch (Exception $e)
+            {
+
+            }
+
+        }
+        return array();
+    }
 }

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="181700cc-8bee-4466-a3b6-f40d35a79590" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/Objects/TrackRepository.php" afterPath="$PROJECT_DIR$/Model/Objects/TrackRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/search.php" afterPath="$PROJECT_DIR$/Model/search.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.44533527">
+    <splitter split-orientation="horizontal" split-proportion="0.18221575">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
@@ -62,8 +60,8 @@
           <file leaf-file-name="UserRepository.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Model/Objects/UserRepository.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="440">
-                  <caret line="26" column="13" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="26" selection-end-column="13" />
+                <state relative-caret-position="352">
+                  <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
                   <folding>
                     <marker date="1507477072384" expanded="true" signature="169:193" ph="SELECT * FRO... user" />
                     <marker date="1507477072384" expanded="true" signature="169:204" ph="SELECT * FRO... user" />
@@ -145,14 +143,15 @@
           <file leaf-file-name="TrackRepository.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Model/Objects/TrackRepository.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="220">
-                  <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+                <state relative-caret-position="272">
+                  <caret line="67" column="20" lean-forward="false" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
                   <folding>
-                    <marker date="1507486074871" expanded="true" signature="271:769" ph="INSERT INTO track... " />
-                    <marker date="1507486074871" expanded="true" signature="1785:1839" ph="SELECT * FRO... track" />
-                    <marker date="1507486074871" expanded="true" signature="1785:1840" ph="SELECT * FRO... user" />
-                    <marker date="1507486074871" expanded="true" signature="1785:1841" ph="SELECT * FRO... track" />
-                    <marker date="1507486074871" expanded="true" signature="1785:2098" ph="SELECT * FRO... track" />
+                    <marker date="1507486326993" expanded="true" signature="271:769" ph="INSERT INTO track... " />
+                    <marker date="1507486326993" expanded="true" signature="1785:1839" ph="SELECT * FRO... track" />
+                    <marker date="1507486326993" expanded="true" signature="1785:1840" ph="SELECT * FRO... user" />
+                    <marker date="1507486326993" expanded="true" signature="1785:1841" ph="SELECT * FRO... track" />
+                    <marker date="1507486326993" expanded="true" signature="1785:2677" ph="SELECT * FRO... track" />
+                    <marker date="1507486326993" expanded="true" signature="2169:2225" ph="SELECT * FRO... track" />
                   </folding>
                 </state>
               </provider>
@@ -292,12 +291,12 @@
       <updated>1507469913621</updated>
       <workItem from="1507469915369" duration="894000" />
       <workItem from="1507470856542" duration="9558000" />
-      <workItem from="1507484023972" duration="2050000" />
+      <workItem from="1507484023972" duration="2301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12502000" />
+    <option name="totallyTimeSpent" value="12753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1698" height="1028" extended-state="6" />
@@ -616,8 +615,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Model/Objects/UserRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="352">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding>
             <marker date="1507477072384" expanded="true" signature="169:193" ph="SELECT * FRO... user" />
             <marker date="1507477072384" expanded="true" signature="169:204" ph="SELECT * FRO... user" />
@@ -633,14 +632,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Model/Objects/TrackRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+        <state relative-caret-position="272">
+          <caret line="67" column="20" lean-forward="false" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
           <folding>
-            <marker date="1507486074871" expanded="true" signature="271:769" ph="INSERT INTO track... " />
-            <marker date="1507486074871" expanded="true" signature="1785:1839" ph="SELECT * FRO... track" />
-            <marker date="1507486074871" expanded="true" signature="1785:1840" ph="SELECT * FRO... user" />
-            <marker date="1507486074871" expanded="true" signature="1785:1841" ph="SELECT * FRO... track" />
-            <marker date="1507486074871" expanded="true" signature="1785:2098" ph="SELECT * FRO... track" />
+            <marker date="1507486326993" expanded="true" signature="271:769" ph="INSERT INTO track... " />
+            <marker date="1507486326993" expanded="true" signature="1785:1839" ph="SELECT * FRO... track" />
+            <marker date="1507486326993" expanded="true" signature="1785:1840" ph="SELECT * FRO... user" />
+            <marker date="1507486326993" expanded="true" signature="1785:1841" ph="SELECT * FRO... track" />
+            <marker date="1507486326993" expanded="true" signature="1785:2677" ph="SELECT * FRO... track" />
+            <marker date="1507486326993" expanded="true" signature="2169:2225" ph="SELECT * FRO... track" />
           </folding>
         </state>
       </provider>
