@@ -1,2 +1,2 @@
 <?php
-    $bdd = new PDO('mysql:host=127.0.0.1;dbname=shelby', 'root', 'root');
+    $bdd = new PDO('mysql:host=localhost;dbname=shelby', 'root', 'root');
