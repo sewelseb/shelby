@@ -26,7 +26,7 @@
                 </form>
 
                 <?php
-                    if($_GET['alreadyImported'])
+                    if(isset($_GET['alreadyImported']) and $_GET['alreadyImported'])
                     {
                         ?>
                         <div class="text-danger">
