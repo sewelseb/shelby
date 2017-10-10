@@ -18,7 +18,7 @@ $conectionTest = $userRepo->testConnectUser($bdd, $_SESSION['username'], $_SESSI
 $trackRepo = new TrackRepository();
 if($conectionTest)
 {
-    $trackRepo->setAllAsSaved();
+    $trackRepo->setAllAsSaved($bdd);
     header('Location: index.php?page=landing');
 }
 else

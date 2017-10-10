@@ -25,6 +25,18 @@
                     <input type="submit" name="login" class="login loginmodal-submit" value="Search">
                 </form>
 
+                <?php
+                    if($_GET['alreadyImported'])
+                    {
+                        ?>
+                        <div class="text-danger">
+                            Already imported
+                        </div>
+                        <?php
+                    }
+                ?>
+
+
 
             </div>
         </div>

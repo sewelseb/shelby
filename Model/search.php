@@ -40,9 +40,14 @@ if($conectionTest)
             var_dump($track);
 
         }
+        header('Location: index.php?page=landing');
 
     }
-    header('Location: index.php?page=landing');
+    else
+    {
+        header('Location: index.php?page=landing&alreadyImported=true');
+    }
+
 }
 else
 {

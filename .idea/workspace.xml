@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="181700cc-8bee-4466-a3b6-f40d35a79590" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Controller/setAllAsSaved.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/setAllAsSaved.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Views/setAllAsSaved.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/Objects/TrackRepository.php" afterPath="$PROJECT_DIR$/Model/Objects/TrackRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/search.php" afterPath="$PROJECT_DIR$/Model/search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/setAllAsSaved.php" afterPath="$PROJECT_DIR$/Model/setAllAsSaved.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/landing.php" afterPath="$PROJECT_DIR$/Views/landing.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/Model/setAllAsSaved.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+              <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -100,18 +98,8 @@
       <file leaf-file-name="landing.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Views/landing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="33" column="41" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connexionDB.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/connexionDB.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="68" lean-forward="false" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
+            <state relative-caret-position="308">
+              <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -120,8 +108,8 @@
       <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="1" />
+            <state relative-caret-position="308">
+              <caret line="47" column="64" lean-forward="true" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -147,13 +135,13 @@
         <option value="$PROJECT_DIR$/Model/Objects/UserRepository.php" />
         <option value="$PROJECT_DIR$/Controller/search.php" />
         <option value="$PROJECT_DIR$/Model/Objects/Track.php" />
-        <option value="$PROJECT_DIR$/Model/search.php" />
         <option value="$PROJECT_DIR$/Model/connexionDB.php" />
         <option value="$PROJECT_DIR$/Model/Objects/DeezerAPI.php" />
         <option value="$PROJECT_DIR$/Model/landing.php" />
         <option value="$PROJECT_DIR$/Controller/setAllAsSaved.php" />
-        <option value="$PROJECT_DIR$/Model/setAllAsSaved.php" />
         <option value="$PROJECT_DIR$/Model/Objects/TrackRepository.php" />
+        <option value="$PROJECT_DIR$/Model/setAllAsSaved.php" />
+        <option value="$PROJECT_DIR$/Model/search.php" />
         <option value="$PROJECT_DIR$/Views/landing.php" />
       </list>
     </option>
@@ -265,12 +253,12 @@
       <workItem from="1507470856542" duration="9558000" />
       <workItem from="1507484023972" duration="6743000" />
       <workItem from="1507534963912" duration="28000" />
-      <workItem from="1507618643480" duration="1108000" />
+      <workItem from="1507618643480" duration="1344000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18331000" />
+    <option name="totallyTimeSpent" value="18567000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1698" height="1028" extended-state="6" />
@@ -610,13 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Views/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Model/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -690,30 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/setAllAsSaved.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Model/Objects/TrackRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -739,10 +696,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Views/landing.php">
+    <entry file="file://$PROJECT_DIR$/Views/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="47" column="64" lean-forward="true" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/setAllAsSaved.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="33" column="41" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/landing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
           <folding />
         </state>
       </provider>
