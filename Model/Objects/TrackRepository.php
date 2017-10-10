@@ -134,4 +134,15 @@ class TrackRepository
         }
         return array();
     }
+
+    public function setAllAsSaved(PDO $pdo)
+    {
+        $sql = "UPDATE tracks SET saved='true'";
+
+        // Prepare statement
+        $stmt = $pdo->prepare($sql);
+
+        // execute the query
+        $stmt->execute();
+    }
 }

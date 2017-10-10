@@ -30,6 +30,11 @@
         </div>
     </div>
 </div>
+<div class="row text-center">
+    <a href="index.php?page=setAllAsSaved">
+        <button class="btn btn-danger">Set All as saved</button>
+    </a>
+</div>
 <div class="">
     <table>
         <th>
