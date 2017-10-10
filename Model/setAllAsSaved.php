@@ -19,7 +19,7 @@ $trackRepo = new TrackRepository();
 if($conectionTest)
 {
     $trackRepo->setAllAsSaved($bdd);
-    header('Location: index.php?page=landing');
+    //header('Location: index.php?page=landing');
 }
 else
 {
