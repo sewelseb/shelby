@@ -94,4 +94,44 @@ class TrackRepository
         }
         return array();
     }
+
+    public function getAllNotSaved(PDO $PDO)
+    {
+        $res = $PDO->query('SELECT * FROM track WHERE saved != "true"');
+        $tracks = array();
+        if (sizeof($res)>0)
+        {
+            try{
+                foreach  ($res as $trackDB) {
+                    $track = new Track();
+
+                    $track->setId($trackDB['id']);
+                    $track->setTrackDeezerId($trackDB['track_deeser_id']);
+                    $track->setAlbumDeezerId($trackDB['album_deezer_id']);
+                    $track->setArtist($trackDB['artist']);
+                    $track->setAlbumTitle($trackDB['album_title']);
+                    $track->setUpc($trackDB['upc']);
+                    $track->setCatalog($trackDB['catalogue']);
+                    $track->setReleaseDate($trackDB['release_date']);
+                    $track->setMarketingLabel($trackDB['marketing_label']);
+                    $track->setIsrc($trackDB['isrc']);
+                    $track->setTrackTitle($trackDB['track_title']);
+                    $track->setTrackArtist($trackDB['track_artist']);
+                    $track->setGender($trackDB['gender']);
+                    $track->setRecordingDate($trackDB['recording_date']);
+                    $track->setFirstDateOfRelease($trackDB['first_date_of_release']);
+                    $track->setFirstCountryOfRelease($trackDB['first_country_of_release']);
+
+
+                    $tracks[]=$track;
+                }
+                return $tracks;
+            }catch (Exception $e)
+            {
+
+            }
+
+        }
+        return array();
+    }
 }

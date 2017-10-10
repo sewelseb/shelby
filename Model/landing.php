@@ -10,7 +10,7 @@ $conectionTest = $userRepo->testConnectUser($bdd, $_SESSION['username'], $_SESSI
 if($conectionTest)
 {
     $trackRepo = new TrackRepository();
-    $traks = $trackRepo->getAll($bdd);
+    $traks = $trackRepo->getAllNotSaved($bdd);
     //var_dump($traks);
 }
 else
