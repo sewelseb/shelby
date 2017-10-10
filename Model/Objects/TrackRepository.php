@@ -137,7 +137,7 @@ class TrackRepository
 
     public function setAllAsSaved(PDO $pdo)
     {
-        $sql = "UPDATE tracks SET saved='true'";
+        $sql = "UPDATE track SET saved='true'";
 
         // Prepare statement
         $stmt = $pdo->prepare($sql);
