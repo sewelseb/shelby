@@ -24,6 +24,7 @@ class Track
     private $recordingDate;
     private $firstDateOfRelease;
     private $firstCountryOfRelease;
+    private $saved;
 
     /**
      * @return mixed
@@ -280,6 +281,22 @@ class Track
     public function setFirstCountryOfRelease($firstCountryOfRelease)
     {
         $this->firstCountryOfRelease = $firstCountryOfRelease;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSaved()
+    {
+        return $this->saved;
+    }
+
+    /**
+     * @param mixed $saved
+     */
+    public function setSaved($saved)
+    {
+        $this->saved = $saved;
     }
 
 

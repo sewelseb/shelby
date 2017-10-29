@@ -81,6 +81,7 @@ class TrackRepository
                     $track->setRecordingDate($trackDB['recording_date']);
                     $track->setFirstDateOfRelease($trackDB['first_date_of_release']);
                     $track->setFirstCountryOfRelease($trackDB['first_country_of_release']);
+                    $track->setSaved($trackDB['saved']);
 
 
                     $tracks[]=$track;
