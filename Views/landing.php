@@ -44,7 +44,10 @@
 </div>
 <div class="row text-center">
     <a href="index.php?page=setAllAsSaved">
-        <button class="btn btn-danger">Set All as saved</button>
+        <button class="btn btn-danger">Set All as saved and export</button>
+    </a>
+    <a href="index.php?page=getCsv">
+        <button class="btn btn-danger">Get back up</button>
     </a>
 </div>
 <div class="">

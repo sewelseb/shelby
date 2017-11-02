@@ -1,28 +1,22 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: sebastien
- * Date: 10-10-17
- * Time: 09:07
- * setAllAsSaved.php
- */
+
+    //
+echo('test');
 require_once ('Objects/UserRepository.php');
-require_once ('Objects/DeezerAPI.php');
-require_once ('Objects/Track.php');
 require_once ('Objects/TrackRepository.php');
+require_once ('Objects/Track.php');
 require_once ('Objects/FichierExcel.php');
 
 $userRepo = new UserRepository();
 //var_dump($_SESSION);
 $conectionTest = $userRepo->testConnectUser($bdd, $_SESSION['username'], $_SESSION['password']);
 //var_dump($conectionTest);
-$trackRepo = new TrackRepository();
 if($conectionTest)
 {
     $trackRepo = new TrackRepository();
-    $traks = $trackRepo->getAllNotSaved($bdd);
-    $trackRepo->setAllAsSaved($bdd);
-
+    $traks = $trackRepo->getAll($bdd);
+    //var_dump($traks);
+    $traksArray = (array)$traks;
 
     $fichier = new FichierExcel();
     $fichier->Colonne("album id;artist;album title;Album Version; UPC; Catalog; Release Date; Marketing Label;Disk #;Track#; 	ISRC; 	Track Title; 	Still Fighting; 	Track Artist ;	Track Timing ;	Explicit(Y/N); 	Genre; 	Recording Date; 	Recording Location; 	First Date of Release; 	First Country of Release ");
@@ -32,4 +26,12 @@ if($conectionTest)
     }
     //ici on peut faire une boucle si nécessaire.
     $fichier->output('NomFichier');
+
+
+    //var_dump($fichier);
+}
+else
+{
+//    echo 'not connected';
+    header('Location: index.php');
 }

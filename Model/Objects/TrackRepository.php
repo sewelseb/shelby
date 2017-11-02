@@ -98,7 +98,7 @@ class TrackRepository
 
     public function getAllNotSaved(PDO $PDO)
     {
-        $res = $PDO->query('SELECT * FROM track WHERE saved != "true"');
+        $res = $PDO->query('SELECT * FROM track WHERE saved = "false" OR saved is NULL ');
         $tracks = array();
         if (sizeof($res)>0)
         {
